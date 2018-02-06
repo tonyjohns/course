@@ -2,3 +2,18 @@ body {
     background-color: rgb(123, 184, 204);
     color: #fff;
 }
+.first {
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.second {
+    border: 1px solid rgb(255, 0, 128);
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.third {
+    border: 1px solid greenyellow;
+    padding: 20px;
+}
