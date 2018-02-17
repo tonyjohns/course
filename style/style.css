@@ -299,3 +299,118 @@ footer {
   }
 }
 
+.page-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #979797;
+  padding-top:76px;
+  padding-bottom: 40px;
+  margin-bottom: 49.9px;
+}
+
+.item-img {
+  width: 252px;
+  height: 395.4px;
+  margin-left: 60px;
+  margin-right: 88px;
+  margin-top:20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.name-section {
+  margin-bottom:50px;
+}
+.brief-info {
+  display: flex;
+  flex-direction: column;
+}
+.brief-info-1 {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+.brief-info-2 {
+display: flex;
+flex-direction: column; 
+margin-bottom: 72px;
+}
+
+.item-btn {
+  width: 100%;
+  width: 283.7px;
+  height: 59px;
+  border: 1px solid #3d3d3d;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #3d3d3d;
+  font-size: 20px;
+}
+.item-btn:hover {
+  cursor: pointer;
+}
+
+.card-item-page {
+  display: flex;
+
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #979797;
+  margin-bottom: 20px;
+  }
+  
+  .img-item-card {
+    width: 111.3px;
+    height: 178.4px;
+    padding: 15.6px 56.6px 26.6px 52px;
+  }
+  
+.con {
+  position:relative
+}
+.top-vk {
+  position:absolute;
+  top: 22px;
+  left: 93px;
+}
+
+.top-fb {
+  position: absolute;
+  top: 18px;
+  left: 104px;
+}
+.top-tg {
+  position: absolute;
+  top: 20px;
+  left: 97px;
+}
+
+.top-md {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+@media(max-width: 990px) {
+.page-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #979797;
+  padding-top:76px;
+  padding-bottom: 40px;
+  margin-bottom: 49.9px;
+}
+
+.item-img {
+  width: 126px;
+  height: 197.7px;
+}
+}
