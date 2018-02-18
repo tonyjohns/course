@@ -4,7 +4,7 @@
 }
 
 .row {
-  width: 102.5%;
+  min-width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-left: -10px;
