@@ -282,22 +282,7 @@ footer {
 .footer-links a:last-child {
   margin-right: 0;
 }
-@media(max-width: 768px) {
-  header nav {
-    display: flex;
-    flex-direction: column;
-  }
-  header nav a {
-    margin-bottom: 10px;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-links a {
-    margin-bottom: 10px;
-  }
-}
+
 
 .page-item {
   display: flex;
@@ -315,7 +300,7 @@ footer {
   height: 395.4px;
   margin-left: 60px;
   margin-right: 88px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -356,23 +341,30 @@ margin-bottom: 72px;
   cursor: pointer;
 }
 
+.btn-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 .card-item-page {
   display: flex;
-
-  width: 100%;
   flex-direction: column;
+  width: 100%;
   border: 1px solid #979797;
   margin-bottom: 20px;
+  background-color: #d8d8d8;
   }
   
   .img-item-card {
     width: 111.3px;
     height: 178.4px;
-    padding: 15.6px 56.6px 26.6px 52px;
+    padding: 15px;
+    display: flex;
+    align-self: center;
   }
   
 .con {
-  position:relative
+  position:relative;
 }
 .top-vk {
   position:absolute;
@@ -397,20 +389,65 @@ margin-bottom: 72px;
   left: 100px;
 }
 
-@media(max-width: 990px) {
-.page-item {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: #f2f2f2;
-  border: 1px solid #979797;
-  padding-top:76px;
-  padding-bottom: 40px;
-  margin-bottom: 49.9px;
-}
-
-.item-img {
-  width: 126px;
-  height: 197.7px;
-}
-}
+@media(max-width: 768px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  header nav a {
+    margin-bottom: 10px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links a {
+    margin-bottom: 10px;
+  }
+  .page-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #979797;
+    padding-top:10px;
+    padding-bottom: 40px;
+    margin-bottom: 49.9px;
+  }
+  .brief-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .brief-info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brief-info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .btn-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .item-img {
+    width: 252px;
+    height: 395.4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  
+  .item-img-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} 
