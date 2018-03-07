@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="462px" height="253px" viewBox="0 0 462 253" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>C3E2CC23-6EDA-4B07-A145-FD2D69E01523</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-488.000000, -3424.000000)">
+        <g id="Чатбот" transform="translate(300.000000, 3097.000000)">
+            <g id="Icon" transform="translate(188.000000, 327.000000)">
+                <polygon id="Shape" fill="#CCEFFF" fill-rule="nonzero" points="461.857395 0 461.857395 91.5412261 441.817322 67.1793478 199 67.1793478 202.463941 0"></polygon>
+                <polygon id="Shape" fill="#CCEFFF" fill-rule="nonzero" points="0 99 230.916342 99 234 166.179348 17.8400046 166.179348 0 190.541226"></polygon>
+                <path d="M199.142605,1 L199.142605,67.7633307 L437.386127,67.7633307 L460,96.2858114 L460,1 L199.142605,1 Z" id="Rectangle-4" stroke="#1050FF" stroke-width="2"></path>
+                <path d="M233,99.4801762 L1,99.4801762 L1,194.485865 L20.9335322,166.243507 L21.451722,166.243507 L233,166.243507 L233,99.4801762 Z" id="Rectangle-4" stroke="#1050FF" stroke-width="2"></path>
+                <text id="Сколько-стоит-достав" font-family="PTMono-Regular, PT Mono" font-size="16" font-weight="normal" fill="#1050FF">
+                    <tspan x="218.6" y="39">Сколько стоит доставка?</tspan>
+                </text>
+                <text id="Доставка-стоит-5$" font-family="PTMono-Regular, PT Mono" font-size="16" font-weight="normal" fill="#1050FF">
+                    <tspan x="43.9" y="138">Доставка стоит 5$</tspan>
+                </text>
+                <g id="Group" transform="translate(1.000000, 252.000000)" stroke="#1050FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <path d="M21.5811518,0 L438.816754,0" id="Shape"></path>
+                    <path d="M450.806283,0 L458,0" id="Shape"></path>
+                    <path d="M0,0 L7.19371728,0" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
